@@ -1,8 +1,14 @@
-import './App.css';
+import Header from "../src/components/Layout/Header";
+import Meals from '../src/components/Meals/Meals';
 
 function App() {
   return (
-    <div className="App">Food app</div>
+    <>
+      <Header />
+      <main>
+        <Meals/>
+      </main>
+    </>
   );
 }
 
